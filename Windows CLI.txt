@@ -1,0 +1,47 @@
+
+cd -> change directory
+
+cd Desktop\Videos -> to Videos
+
+cd .. -> one step back
+
+cd ../.. -> Two step back
+
+cd D (Tab) -> autometic shows the directories
+
+cls -> clear screen
+
+use up arrow to repeat the same command
+
+...........................................................................................................................
+
+dir -> shows all the directories and files
+
+dir /a -> shows all heading directories and files
+
+dir *.jpg -> shows specific extention files
+
+one.jpg  -> to open the file
+
+ipconfig /? -> to help with all available commands and options
+
+---------------------------------------------------------------------------------------------------------------------------
+Create & Delete Directory
+
+mkdir directoryname -> creates a new directory
+
+rmdir directoryname -> delete a empty directory 
+
+rm /s directoryname -> delete non-empty directory
+
+Use Home and End to jump first word and last word of the command 
+
+Ctrl+Arrow key -> To jump from word to word of the command
+----------------------------------------------------------------------------------------------------------------------------
+
+cd "C:\Program Files"\Common Files
+
+path (computer -> properties-> Advance system settings-> Environment Variables)
+
+
+
