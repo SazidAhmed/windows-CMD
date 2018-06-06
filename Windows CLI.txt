@@ -43,10 +43,18 @@ cd "C:\Program Files"\Common Files
 
 path (computer -> properties-> Advance system settings-> Environment Variables)
 -----------------------------------------------------------------------------------------------------------------------------
+
 DRIVERS and COLOR
 
 wmic logicaldisk get name
 
+C:\>E: -> changing drive
+
+C:\Users\Sazid\Desktop>tree -> to show the branch
+
+color 0D color 07 ->set color og CLI
+---------------------------------------------------------------------------------------------------------------------------
+File Attributes
 
 
 
