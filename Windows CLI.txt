@@ -42,6 +42,11 @@ Ctrl+Arrow key -> To jump from word to word of the command
 cd "C:\Program Files"\Common Files
 
 path (computer -> properties-> Advance system settings-> Environment Variables)
+-----------------------------------------------------------------------------------------------------------------------------
+DRIVERS and COLOR
+
+wmic logicaldisk get name
+
 
 
 
