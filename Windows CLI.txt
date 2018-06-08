@@ -17,7 +17,11 @@ use up arrow to repeat the same command
 
 dir -> shows all the directories and files
 
+dir e:  -> shows all directories of the drive E
+
 dir /a -> shows all heading directories and files
+
+dir /ah -> shows all hidden files
 
 dir *.jpg -> shows specific extention files
 
@@ -38,12 +42,12 @@ Use Home and End to jump first word and last word of the command
 
 Ctrl+Arrow key -> To jump from word to word of the command
 ----------------------------------------------------------------------------------------------------------------------------
+PATH:
 
 cd "C:\Program Files"\Common Files
 
 path (computer -> properties-> Advance system settings-> Environment Variables)
------------------------------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------------------------------------------
 DRIVERS and COLOR
 
 wmic logicaldisk get name
@@ -56,5 +60,38 @@ color 0D color 07 ->set color og CLI
 ---------------------------------------------------------------------------------------------------------------------------
 File Attributes
 
+attrib /? -> display files attributes
 
+attrib +h sazid.txt  -> to hide a file
 
+attrib -h sazid.txt  -> to show a hidden file
+
+attrib +r sazid.txt  -> to make a file read only
+----------------------------------------------------------------------------------------------------------------------------
+
+Deleting and appending to filess
+
+del sazid.txt -> to delete a file
+
+type sazid.txt -> to read what is in the file
+
+echo some text in the file > sazid.txt   -> to write somehing in a file 
+
+echo Adding some new text in the file >> sazid.txt   -> adding some new lines in the file 
+
+dir > non.txt -> to make a text file that will contain the result of the directory
+------------------------------------------------------------------------------------------------------------------------------
+COPY AND MOVING AND RENAME FILES
+
+copy sazid.txt newfolder -> to copy the file into a folders
+
+copy sazid.txt e: -> to copy the file into the drive E
+
+xcopy newfolder ok -> to copy files from newfolder to ok folder
+
+xcopy newfolder ok /s -> to copy all files and sub folders from newfolder to ok folder
+
+move newfolder ok2  -> to move files from newfolder to ok2 folder
+
+rename ok2 test -> To rename a file 
+-------------------------------------------------------------------------------------------------------------------------------
